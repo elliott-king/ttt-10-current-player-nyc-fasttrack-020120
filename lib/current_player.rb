@@ -6,7 +6,7 @@ def turn_count(board)
       t +=1
     end
   end
-
+  t
 end
 
 puts turn_count(['', '', 'X'])
