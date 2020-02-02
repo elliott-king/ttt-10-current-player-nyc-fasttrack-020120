@@ -9,4 +9,10 @@ def turn_count(board)
   t
 end
 
-puts turn_count(['', '', 'X'])
+def current_player(board)
+  if turn_count(board) % 2 == 1:
+    'O'
+  else
+    'X'
+  end
+end
